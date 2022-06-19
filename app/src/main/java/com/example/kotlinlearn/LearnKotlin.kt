@@ -1,9 +1,25 @@
 package com.example.kotlinlearn
 
+import android.provider.SyncStateContract
+import androidx.appcompat.widget.ThemedSpinnerAdapter
+import androidx.recyclerview.widget.RecyclerView
 import java.util.*
 import kotlin.math.max
 
+
 fun main(){
+//    val money1 = Money(5)
+//    val money2 = Money(10)
+//    val money3 = money1 + money2
+//    println(money3.value)
+//    if("he" in "hello"){
+//        println("hello")
+//    }
+    val str = "abc" * 3
+    println(str)
+//    doSomething()
+//    val count = "ABC123xyz!@#".letterCount()
+//    println(count)
 //    println("Hello Kotlin")
 //    var a = 10
 //    a *= 10
@@ -37,6 +53,30 @@ fun main(){
 //    Singleton.singleTest()
 
     val list = listOf("Apple","Banana","Oragne","Pear","Grape")
+//    val result = with(StringBuilder()){
+//        append("Start eating fruit\n")
+//        for (fruit in list){
+//            append(fruit).append("\n")
+//        }
+//        append("Ate all fruits.")
+//        toString()
+//    }
+//    val result = StringBuilder().run {
+//        append("Start eating fruit\n")
+//        for (fruit in list){
+//            append(fruit).append("\n")
+//        }
+//        append("Ate all fruits.")
+//        toString()
+//    }
+//    val result = StringBuilder().apply {
+//        append("Start eating fruit\n")
+//        for (fruit in list){
+//            append(fruit).append("\n")
+//        }
+//        append("Ate all fruits.")
+//    }
+//    println(result.toString())
 //    val list = mutableListOf("Apple","Banana","Oragne","Pear","Grape")
 //    list.add("Watermelon")
 //    for (fruit in list){
